@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+    <g:HTMLPanel>
+    	<g:HorizontalPanel spacing="5">
+    		<g:Button ui:field="runButton">Run Fibonacci Test</g:Button>
+    		<g:IntegerBox ui:field="runCount">50</g:IntegerBox>
+    		<g:Label>times</g:Label>
+    	</g:HorizontalPanel>
+    	<g:VerticalPanel ui:field="resultPanel" spacing="10"> 
+    	</g:VerticalPanel>
+    </g:HTMLPanel>
+</ui:UiBinder>

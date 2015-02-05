@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<ui:style>
+		.fps {
+			padding: 10px;
+			font-size; 20px;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:Label ui:field="fpsLabel" addStyleNames="{style.fps}"> Starting FPS Meter </g:Label>
+	</g:HTMLPanel>
+</ui:UiBinder>
