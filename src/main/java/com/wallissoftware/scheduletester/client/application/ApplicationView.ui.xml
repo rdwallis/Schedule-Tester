@@ -2,6 +2,10 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <g:HTMLPanel>
     	<g:SimplePanel ui:field="fpsPanel"/>
-    	<g:SimplePanel ui:field="fibPanel"/>
+    	<g:HorizontalPanel spacing="10">
+    		<g:Button ui:field="addFibTestButton">Add fibonacci test</g:Button>
+    		<g:Button ui:field="runTests">Run All Tests Simultaneously</g:Button>
+    	</g:HorizontalPanel>
+    	<g:FlowPanel ui:field="testPanel"/>
     </g:HTMLPanel>
 </ui:UiBinder>

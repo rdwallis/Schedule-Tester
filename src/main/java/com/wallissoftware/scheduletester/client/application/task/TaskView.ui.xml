@@ -1,0 +1,24 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.main {
+		display: inline-block;
+		vertical-align: top;
+	}
+	</ui:style>
+	<g:HTMLPanel addStyleNames="{style.main}">
+		<g:HorizontalPanel spacing="5">
+			<g:Button ui:field="runButton">Run Fibonacci Test</g:Button>
+			<g:IntegerBox ui:field="runCount">25</g:IntegerBox>
+			<g:Label>times</g:Label>
+			<g:CheckBox ui:field="highVarience">Vary Run Loop from:</g:CheckBox>
+			<g:IntegerBox ui:field="low">0</g:IntegerBox>
+			<g:Label>to</g:Label>
+			<g:IntegerBox ui:field="high">1024</g:IntegerBox>
+			<g:CheckBox ui:field="unpredictable">Make unpredicatable</g:CheckBox>
+		</g:HorizontalPanel>
+		<g:VerticalPanel ui:field="resultPanel" spacing="10">
+		</g:VerticalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder>
